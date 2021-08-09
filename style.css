@@ -1,0 +1,41 @@
+.img-upload-btn {
+    display: none!important
+}
+
+.img-upload-btn.visible {
+    display: block!important
+}
+
+.uploaded-img {
+    display: none;
+    width: 100px;
+    position: relative;
+    padding: 5px;
+    background: #fff;
+    box-shadow: 0 0 6px -1px #565050b5;
+    overflow: hidden
+}
+
+.uploaded-img.visible {
+    display: block
+}
+
+.uploaded-img:hover .img-delete-icon {
+    display: flex
+}
+
+.uploaded-img .img-delete-icon {
+    display: none;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 5px
+}
+
+.uploaded-img img {
+    width: 100%;
+    height: auto;
+    display: block
+}
